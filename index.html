@@ -5,17 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo CSS</title>
+    <!--Defininco CSS Interno -->
+    <style>
+        body {
+            background: yellow;
+        }
+
+        h1 {
+            color: blue;
+            font-size: 88px;
+        }
+    </style>
 </head>
 
-<!--Propriedade CSS in-line 'style="background:""' para definir fundo da cor da tela-->
 
-<body style="background: yellow;">
-    <!--
-    Propriedade CSS in-line 'color: blue' para definir a cor da fonte
-    Propriedade CSS in-line 'font-size: 88px' para definir o tamanho da fonte
-    -->
-    <h1 style="color: blue;font-size: 88px;">Meu primeiro site com CSS</h1>
-    <h1>Outro componente</h1>
+
+<body>
+    <h1>Meu primeiro site com CSS</h1>
+    <!--Propriedade CSS in-line Tem prioridade a CSS Interno-->
+    <h1 style="color: red;">Outro h1</h1>
+    <h2>Outro componente</h2>
+    <a href="./outro.html">Ir para outra pagina</a>
 </body>
 
 </html>
