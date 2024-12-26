@@ -5,29 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aprendendo CSS</title>
-    <!--
-    Defininco CSS Externo 
-    Tag "link" para definir o arquivo do estilo com
-    propriedade 'rel="stylesheet" href=""' e definindo o endereço do arquivo css de estilo
-    -->
     <link rel="stylesheet" href="./css/estilo.css">
-    <!--Css Interno-->
-    <style>
-        h2{
-            color: green;
-        }
-    </style>
-
 </head>
 
-
-
 <body>
-    <!--CSS In-line-->
-    <h1 style="color: red;">Meu primeiro site com CSS</h1>
-    <h1>Outro h1</h1>
-    <h2>Outro componente</h2>
-    <a href="./outro.html">Ir para outra pagina</a>
+    <!-- h1 irá receber uma classe com nome 'center' -->
+    <h1 class="center">Meu primeiro site com CSS</h1>
+
+    <h2>Título</h2>
+
+    <!-- p irá receber duas classes 'center' e 'vermelho' -->
+    <p class="center vermelho">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque minima dicta natus
+        provident similique voluptate dolore dolorum enim quam cupiditate, neque ipsa dolor illo rerum est voluptatum?
+        Asperiores, eveniet quam!</p>
+
+    <!-- p irá receber um id unico com nome 'teste' -->
+    <p id="teste">
+        Odio mollitia suscipit minus, ducimus nostrum iste amet quas quidem eum incidunt commodi sint
+        temporibus, quod ex molestias excepturi, illo praesentium perferendis veniam facere similique aperiam fugiat?
+        Reiciendis, obcaecati atque.</p>
+
+    <p class="vermelho fonte-30">
+        Officiis, laborum sed esse aut expedita nemo necessitatibus adipisci doloribus
+        eligendi, asperiores voluptas impedit, repellendus enim incidunt distinctio aliquam. Nemo voluptatem corrupti
+        distinctio odio est neque. Provident excepturi sequi consequuntur!</p>
+
+    <!-- link para outra pagina -->
+    <a href="outro.html">Ir para outra pagina</a>
 </body>
 
 </html>
