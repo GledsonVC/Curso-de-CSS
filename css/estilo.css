@@ -34,7 +34,14 @@ body {
 }
 
 h1 {
-    color: blue;
+    color: white;
+    border-top: 5px solid red;
+    border-bottom: 5px double green;
+    border-left: 5px groove blue;
+    border-right: 5px dashed yellow;
+    border-radius: 10px;
+    text-align: center;
+    background: black;
 }
 
 h2 {
