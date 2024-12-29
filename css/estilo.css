@@ -44,9 +44,14 @@ h2 {
 }
 
 p {
-    color: rgb(93, 171, 15);
-    margin-bottom: 40px;
-    margin-left: 20px;
+    color: black;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 60px;
+    letter-spacing: -2px;
+    line-height: 3.8;
+    word-spacing: 30px;
 }
 
 .botao {
