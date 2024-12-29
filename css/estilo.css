@@ -1,11 +1,39 @@
-.exemplo {
-    background: blue;
-    color: black;
-    height: 150px;
+.container {
+    border: 1px solid black;
     overflow: auto;
-    width: 1700px;
 }
 
-body{
-    overflow-x: hidden;
+.container img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    background: black;
+    padding: 20px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+li a:hover {
+    background: gray;
+    color: black;
+}
+
+.login {
+    float: right;
+}
+
+.login a:hover {
+    background: red;
+    color: white;
 }
