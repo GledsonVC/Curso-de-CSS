@@ -1,37 +1,7 @@
-.borda {
-    border: 1px solid red;
-}
+ .ex1 {
+     width: 800px;
+ }
 
-p {
-    display: inline;
-}
-
-h1 {
-    display: inline;
-}
-
-#p1 {
-    display: block;
-}
-
-#p1:hover {
-    display: none;
-}
-
-li{
-    display: inline-block;
-}
-
-.azul{
-    background: blue;
-}
-
-
-.vermelho{
-    background: red;
-}
-
-
-.verde{
-    background: green;
-}
+ .ex2 {
+    max-width: 800px;
+ }
