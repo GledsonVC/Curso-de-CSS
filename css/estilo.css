@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap');
+
 /* Propriedade 'background' definir o fundo ou que fica atraz
 'background-color' define direto uma cor
 */
@@ -37,6 +39,7 @@ h1 {
     padding-right: 10px; 
      */
     padding: 50px 70px 20px 10px;
+    font-family: "Playwrite AU VIC Guides", serif;
 }
 
 h2 {
@@ -46,12 +49,11 @@ h2 {
 p {
     color: black;
     text-align: justify;
-    text-decoration: underline;
-    text-transform: uppercase;
     text-indent: 60px;
-    letter-spacing: -2px;
-    line-height: 3.8;
-    word-spacing: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .botao {
