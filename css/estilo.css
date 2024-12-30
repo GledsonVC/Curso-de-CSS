@@ -1,19 +1,19 @@
 #titulo{
-    background: blue;
+    color: blue;
 }
 
 h1.red{
-    background: green;
+    color: green;
 }
 
 .red{
-    background: red;
+    color: red;
 }
 
 h1{
-    background: yellow;
+    color: yellow;
 }
 
 h1{
-    background: orange;
+    color: orange !important;
 }
